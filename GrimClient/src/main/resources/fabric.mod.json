@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "grimclient",
+  "version": "1.0.0",
+  "name": "Grim Client",
+  "description": "Grim Client - press P to open GUI.",
+  "authors": ["GrimClient"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.grimclient.GrimClientMod"]
+  },
+  "mixins": ["grimclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
